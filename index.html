@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hours Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 class="page_header"> Hours Calculator </h1>
+	<form>
+		<div id="slide1">
+			<p> <label> How many hours would you like to work? </label> </p>
+			<div class="row">
+				<div class="cell"><input type="text" id="hours_wanted" value="8"> <label>Hours</label></div>
+				<div class="cell"><input type="text" id="minutes_wanted"> <label>Minutes</label> </div>
+			</div>
+			<input id="next_button" type="button" value="Next" >
+		</div>
+		<div id="slide2">
+			<p> <label> Enter the following times in 24-hour hh:mm format: </label> </p>
+			<p> <label> Start time </label> <input type="text" id="start_time" placeholder="hh:mm"> </p>
+			<p> <label> Start lunch </label> <input type="text" id="lunch_start" placeholder="hh:mm"> </p>
+			<p> <label> End lunch </label> <input type="text" id="lunch_end" placeholder="hh:mm"> </p>
+			<input id="submit_button" type="button" value="Submit">
+		</div>	
+	</form>
+	<div id="slide3">
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>	
+	<script src="scripts.js"></script>
+</body>
+</html>

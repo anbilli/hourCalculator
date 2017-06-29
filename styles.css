@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	background-image: url("space3.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+
+}
+
+.page_header {
+	font-family: Lobster;
+	font-size: 90px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	opacity: 0.6;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	
+}
+
+.page_header:hover {
+	opacity: 0.72;
+}
+
+label {
+	font-family: Quicksand;
+	color: white;
+	font-size: 30px;
+	line-height: 200%;
+}
+
+input[type=text] {
+	border-radius: 8px;
+	width: 4%;
+	font-family: Quicksand;
+	font-size: 15px;
+	text-align: center;
+	margin: 15px;
+}
+
+input[type=button] {
+	border-radius: 8px;
+	font-family: Quicksand;
+	color: #785807;
+	background-color: BlanchedAlmond;
+	font-size: 20px;
+	margin: 20px;
+}
+
+input[type=button]:hover {
+	background-color: #fff9f0;
+}
+
+.row {
+	width: 100%;
+}
+
+.row > div {
+	display: inline-block;
+	width:22%;
+	text-align: center;
+}
+
+#hours_wanted, #minutes_wanted {
+	width: 15%;
+}
+
+#slide1, #slide2, #slide3 {
+	display: none;
+}
+
